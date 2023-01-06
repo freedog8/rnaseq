@@ -59,7 +59,7 @@ You can find numerous talks on the [nf-core events page](https://nf-co.re/events
 > **Warning**
 > Quantification isn't performed if using `--aligner hisat2` due to the lack of an appropriate option to calculate accurate expression estimates from HISAT2 derived genomic alignments. However, you can use this route if you have a preference for the alignment, QC and other types of downstream analysis compatible with the output of HISAT2.
 
-> **Warming**
+> **Warning**
 > dupRadar will generate large amount of temporary file (~60G/sample(40 million paired-end 150nt reads)
 
 ## Quick Start
